@@ -1,1 +1,12 @@
-# Rainfall-Prediction-Using-DeepLearning
+# 1. Introduction
+Climate is a significant factor in human life. As a result, the Prediction should be as accurate as feasible. In this model, we attempt to deal with the forecast of rainfall, which is also a crucial component of human existence and provides the most important resource of human life, fresh water. Because of climate stochastic nature, making accurate climate predictions is always a difficult undertaking.
+Deep Learning is an area of Machine Learning in which neural networks are used to model and solve complex problems. Neural networks are designed to mimic the structure and function of human brains. Neural networks are layers of nodes, similar to how neurons make up the human brain. Individual layer nodes are linked to nodes in neighbouring layers. The number of layers in the network indicates how deep it is. In the human brain, a single neuron gets hundreds of impulses from other neurons. Signals pass between nodes in an artificial neural network and are assigned weights.
+The nodes in the subsequent layers will be more impacted by a heavier weighted node. The weighted inputs are compiled in the last layer to create the output. Deep learning systems handle a lot of data and perform several intricate mathematical computations, thus they need strong hardware. Given that neural networks are capable of approximating any function, deep learning is also known as the Universal Approximator.This implies that every task that can be conceptualized as a function calculation can be carried out by neural networks.
+Because rainfall patterns are impacted by a wide range of elements and can display complicated, non-linear correlations, we have employed deep learning to predict the rain. Because deep learning models can capture complicated patterns, they are a good fit for modeling the complex nature of meteorological data. And also Deep Learning are able to produce better results for larger datasets. So, By using this model we are going to find the patterns from the past days and going to forecast the weather. This prediction mainly helps farmers and also water resources can be utilized efficiently. 
+
+# 2.Project Description
+## 2.1 Data Analysis
+This dataset contains about 10 years of daily weather observations from many locations across Australia. The Given dataset in our model consists of total 1,45,000 rows and 23 columns. RainTomorrow is the target variable to be predicted. 
+![image](https://github.com/SaiAvinash2002/Rainfall-Prediction-Using-DeepLearning/assets/76832424/a2c4d161-d8f4-4bce-94c3-354f0b9ddc77)
+
+   _Fig:2.1 Representation Of Null Values In All Columns._
